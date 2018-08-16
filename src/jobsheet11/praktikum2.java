@@ -13,3 +13,5 @@
         System.out.println("Kalimat Asli : " + kalimat);
         
         return kalimat;
+  
+        String kalimat = tampilInput();
