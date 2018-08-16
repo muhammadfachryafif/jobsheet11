@@ -31,3 +31,8 @@ String convert = vocal2Angka(kalimat);
         System.out.println(arrKal[i]+" => "+arrcon[i]);
         tampilPerKata(kalimat,convert);
     }    
+  private static void tampilHasil(String convert){
+      System.out.println("Kalimat Alay Angka : " + convert);
+      tampilHasil(convert);
+    }   
+}
